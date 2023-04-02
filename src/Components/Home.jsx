@@ -6,7 +6,7 @@ const Home = () => {
       <div className="h-screen">
         <div class="py-8 px-8 pt-6 mx-auto w-full h-full text-center lg:py-16 bg-black">
           <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-            This is the offical website of World Trade LLC.
+            This is the offical website of World Translink LLC.
           </p>
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             We'll be right back soon
@@ -19,8 +19,8 @@ const Home = () => {
           <h4>
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
-              <a href="https://flowbite.com/" class="hover:underline">
-                World Trade LLC™
+              <a href="https://worltranslinkllc.com/" class="hover:underline">
+                World Translink LLC™
               </a>
               . All Rights Reserved.
             </span>
