@@ -1,6 +1,6 @@
 {
   "name": "world-translink-llc",
-  "homepage": "https://worldtranslinkllc.com/ && https://main.d1m42h7jbd6237.amplifyapp.com/",
+  "homepage": "https://worldtranslinkllc.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,12 +9,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set HTTPS=true&&react-scripts start",
+    "start": "set HTTPS=true&&react-scripts start &&GENERATE_SOURCEMAP=false",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
