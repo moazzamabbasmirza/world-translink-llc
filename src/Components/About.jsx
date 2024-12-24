@@ -27,11 +27,11 @@ const About = () => {
                   <strong>Z.I Enterprises</strong> (2007 - 09): Solution Providers – General Order Suppliers
                 </li>
                 <li>
-                  <strong>Al-Ashtar International</strong> (2015 - 19): Solution Providers – Government/Private Contractor – General Order Supplier
+                  <strong>Al Muntaqim International SmC Pvt Ltd</strong> (2015 - Present): Solution Providers – Government/Private Contractor – General Order Supplier
                 </li>
-                <li>
+                {/* <li>
                   <strong>Al-Muntaqim International Services</strong> (2019 - Present): Solution Providers – Government/Private Contractor – General Order Supplier
-                </li>
+                </li> */}
               </ul>
             </div>
 
