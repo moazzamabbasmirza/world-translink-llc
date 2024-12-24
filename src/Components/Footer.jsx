@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,26 +21,28 @@ const Footer = () => {
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-              <li>
-                <a href="/about" className="mr-4 hover:underline md:mr-6 ">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="/" className="mr-4 hover:underline md:mr-6">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="hover:underline">
-                  Contact
-                </a>
-              </li>
-            </ul>
+  <li className="mr-4"> {/* Added margin-right */}
+    <Link
+      to="/about"
+      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+    >
+      About
+    </Link>
+  </li>
+  <li className="mr-4"> {/* Added margin-right */}
+    <Link
+      to="/contact"
+      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+    >
+      Contact
+    </Link>
+  </li>
+</ul>
+
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="/" className="hover:underline">
               World Translink LLC™
             </a>

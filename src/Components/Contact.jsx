@@ -30,33 +30,50 @@ const Contact = () => {
                       We believe digital innovation is at the heart of every
                       business success
                     </h2>
-                    <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
-                        Address
+                    <br/>
+                    <div>
+                    <h2 className="text-sm md:text-base text-black-900 font-bold">
+                        Dubai Office
                       </h2>
+                      <h2 className="text-blue-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      World Translink General Trading FZ-LLC                    </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        Office #13, NSTP, NUST University H-12 Sector, Islamabad
-                      </h2>
+                      Office No 14, 4th Floor Al Moosa Tower 2, Sheikh Zayed Road Dubai.                     </h2>
+                      <h2 className="text-blue-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      Faychem General Trading LLC             </h2>
+                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      Office No 308, Al Zarooni Building, Al Raffa, Al Suq Al Kabeer, Bur Dubai, United Arab Emirates.                     </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                      <h2 className="text-sm md:text-base text-black-900 font-bold">
+                       Rakez Freezone
+                      </h2>
+                      <h2 className="text-blue-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      World Translink General Trading FZ-LLC                    </h2>
+                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      MBAM0146, Compass Building, Al Shohada Road
+Al Hamra Industrial Zone-FZ, Ras Al Khaimah,
+United Arab Emirates</h2>
+                    </div>
+                    <div className="mt-4 md:mt-8">
+                    <h2 className="text-sm md:text-base text-black-900 font-bold">
                         Contact
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +92 051 4567890 (Phone)
-                      </h2>
-                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +92 123 4567890 (Cell)
-                      </h2>
+                      +971502174746</h2>
                     </div>
                     <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
-                        Email
+                      <h2 className="text-sm md:text-base text-black-900 font-bold">
+                        For Further Queries
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        alphasquad@example.com
+                      worldtranslinkllc@gmail.com
+                      </h2>
+                      <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
+                      info@worldtranslinkllc.com
                       </h2>
                     </div>
+                     
                   </div>
                 </div>
               </div>
